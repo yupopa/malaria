@@ -4,7 +4,7 @@ from pathlib import Path
 import streamlit as st
 from urllib.request import urlretrieve
 urll = ("http://dl.dropboxusercontent.com/s/3apsewsepcklc71/aa.jpg?raw=1")
-filenamee = "iytelogo.png"
+filenamee = "aa.jpg"
 urlretrieve(urll,filenamee)
 st.image(filenamee)
 
