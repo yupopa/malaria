@@ -9,8 +9,8 @@ urlretrieve(urll,filenamee)
 st.image(filenamee)
 
 
-url = 'http://dl.dropboxusercontent.com/s/7sjbay2k5ifwy07/iytelogo.png?raw=1'
-filename = 'iytelogo.png'
+url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
+filename = 'malaria.pkl'
 urlretrieve(url,filename)
 st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
 st.write("This app classifies malaria and normal blood cells.")
