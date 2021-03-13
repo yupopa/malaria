@@ -3,8 +3,8 @@ from fastai.vision.all import *
 from pathlib import Path
 import streamlit as st
 from urllib.request import urlretrieve
-urll = ("http://dl.dropboxusercontent.com/s/ecl4tj6q2u8s4q3/fig-03_5.png?raw=1")
-filenamee = "fig-03_5.png"
+urll = ("http://dl.dropboxusercontent.com/s/7sjbay2k5ifwy07/iytelogo.png?raw=1")
+filenamee = "iytelogo.png"
 urlretrieve(urll,filenamee)
 st.image(filenamee)
 
