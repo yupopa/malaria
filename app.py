@@ -6,7 +6,7 @@ from urllib.request import urlretrieve
 url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
-st.markdown("parasitized or uninfected")
+st.markdown("PARASITIZED OR UNINFECTED FOR MALARIA DISEASE")
 
 class Predict:
     def __init__(self, filename):
@@ -33,7 +33,7 @@ class Predict:
             pred, pred_idx, probs = self.learn_inference.predict(self.img)
             st.write(f'Prediction: {pred}; Probability: {probs[pred_idx]:.04f}')
         else: 
-            st.write(f'Click the button to classify') 
+            st.write(f'Click the button to learn parasitized or uninfected') 
 
 if __name__=='__main__':
     predictor = Predict(filename)
