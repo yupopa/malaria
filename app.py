@@ -3,13 +3,16 @@ from fastai.vision.all import *
 from pathlib import Path
 import streamlit as st
 from urllib.request import urlretrieve
+backgroundimage = url("http://dl.dropboxusercontent.com/s/ecl4tj6q2u8s4q3/fig-03_5.png?raw=1")
+st.markdown(backgroundimage, unsafe_allow_html=True)
 url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
 st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
 st.write("This app classifies parasitized cells or uninfected cells(malaria)")
 st.write("This model trained by using this dataset ->  https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria")
-
+backgroundimage = url("http://dl.dropboxusercontent.com/s/ecl4tj6q2u8s4q3/fig-03_5.png?raw=1")
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 class Predict:
