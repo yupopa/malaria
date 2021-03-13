@@ -43,7 +43,7 @@ class Predict:
             pred, pred_idx, probs = self.learn_inference.predict(self.img)
             st.write(f'Prediction: {pred}; Probability: {probs[pred_idx]:.04f}')
         else: 
-            st.write(f'Click the button to learn parasitized or uninfected') 
+            st.write("Click the button to get prediction result for the uploaded image") 
 
 if __name__=='__main__':
     predictor = Predict(filename)
