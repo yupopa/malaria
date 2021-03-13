@@ -13,7 +13,7 @@ url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
 st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
-st.write("This app classifies parasitized cells or uninfected cells(malaria)")
+st.write("This app classifies malaria and normal blood cells.")
 st.write("This model trained by using this dataset ->  https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria")
 
 
