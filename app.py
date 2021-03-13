@@ -9,6 +9,7 @@ urlretrieve(url,filename)
 st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
 st.write("This app classifies parasitized cells or uninfected cells(malaria)")
 st.write("This model trained by using this dataset ->  https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria")
+st.write("Upload your image")
 
 
 class Predict:
