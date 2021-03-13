@@ -3,8 +3,8 @@ from fastai.vision.all import *
 from pathlib import Path
 import streamlit as st
 from urllib.request import urlretrieve
-url = 'http://dl.dropboxusercontent.com/s/f54qsk57cs1u9xr/newbest.pkl?raw=1'
-filename = 'newbest.pkl'
+url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
+filename = 'malaria.pkl'
 urlretrieve(url,filename)
 st.markdown("parasitized or uninfected")
 
