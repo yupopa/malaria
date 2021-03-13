@@ -6,7 +6,7 @@ from urllib.request import urlretrieve
 url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
-st.markdown("PARASITIZED OR UNINFECTED FOR MALARIA DISEASE")
+st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
 
 class Predict:
     def __init__(self, filename):
