@@ -8,6 +8,8 @@ filename = 'malaria.pkl'
 urlretrieve(url,filename)
 st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
 st.write("This app classifies parasitized cells or uninfected cells(malaria)")
+st.write("This model trained using these images ->  https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria")
+
 
 class Predict:
     def __init__(self, filename):
