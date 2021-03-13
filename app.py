@@ -12,7 +12,7 @@ st.image(filenamee)
 url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
-st.markdown("Prediction of infected red blood cells for detection of malaria")
+st.markdown("Detection of malaria disease through prediction from red blood cell images")
 st.write("This app is used to predict the infectious condition of the red blood cells as healthy or infected.")
 st.write("The following dataset for image classification was used to train the model     https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria")
 
