@@ -8,7 +8,7 @@ filenamee = "fig-03_5.png"
 urlretrieve(urll,filenamee)
 st.markdown(filenamee)
 
-st.markdown(backgroundimage, unsafe_allow_html=True)
+
 url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
