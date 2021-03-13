@@ -6,7 +6,7 @@ from urllib.request import urlretrieve
 urll = ("http://dl.dropboxusercontent.com/s/ecl4tj6q2u8s4q3/fig-03_5.png?raw=1")
 filenamee = "fig-03_5.png"
 urlretrieve(urll,filenamee)
-st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown(filenamee)
 
 st.markdown(backgroundimage, unsafe_allow_html=True)
 url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
