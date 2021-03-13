@@ -7,6 +7,7 @@ url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
 filename = 'malaria.pkl'
 urlretrieve(url,filename)
 st.markdown("PARASITIZED OR UNINFECTED(MALARIA)")
+st.write("This app classifies parasitized cells or uninfected cells(malaria)")
 
 class Predict:
     def __init__(self, filename):
