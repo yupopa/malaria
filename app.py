@@ -9,8 +9,8 @@ urlretrieve(urll,filenamee)
 st.image(filenamee)
 
 
-url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/malaria.pkl?raw=1'
-filename = 'malaria.pkl'
+url = 'http://dl.dropboxusercontent.com/s/o3lk3aol4euiwfo/export.pkl?raw=1'
+filename = 'export.pkl'
 urlretrieve(url,filename)
 st.markdown("Detection of malaria disease through prediction from red blood cell images")
 st.write("This app is used to predict the infectious condition of the red blood cells as healthy or infected.")
